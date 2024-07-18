@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -18,22 +19,23 @@ const Footer = (props: Props) => {
           <h2 className='text-2xl font-bold'>Navigation</h2>
           <hr className='my-4 border-blue-500' />
           <ul className='space-y-2 sm:text-lg'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/services">Services</Link></li>
+            <li><Link href="/#portfolio">Portfolio</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
         <div className='my-10 xl:pl-24'>
           <h2 className='text-2xl font-bold'>Services</h2>
           <hr className='my-4 border-blue-500' />
           <ul className='space-y-2 sm:text-lg'>
-            <li>Web Design</li>
-            <li>Website Maintenance</li>
-            <li>SEO Services</li>
-            <li>Content Creation</li>
-            <li>Logo Design</li>
+            <li><Link href="/">Web Design</Link></li>
+            <li><Link href="/">Website Maintenance</Link></li>
+            <li><Link href="/">SEO Services</Link></li>
+            <li><Link href="/">Content Creation</Link></li>
+            <li><Link href="/">Logo Design</Link></li>
           </ul>
         </div>
       </div>
