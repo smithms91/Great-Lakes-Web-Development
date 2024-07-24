@@ -40,7 +40,7 @@ const ServicesPage = (props: Props) => {
         <Image className="absolute -left-5 top-[200px] rotate-[210deg] scale-x-[-1]" src='/plane.svg' alt='services' width={50} height={50} />
       </div>
       <div className='md:flex md:px-10 md:my-10 md:mt-20 xl:px-[400px] xl:my-40'>
-        <Image className="mx-auto my-10 sm:w-[450px] md:w-[300px] md:self-start md:mr-10 xl:basis-8/12 xl:mt-0" src='/code3.svg' alt='services' width={300} height={300} />
+        <Image className="mx-auto my-10 sm:w-[450px] sm:h-auto md:w-[300px] md:h-auto md:self-start md:mr-10 xl:basis-8/12 xl:mt-0" src='/code3.svg' alt='services' width={300} height={300} />
         <div className='px-10 space-y-8 md:px-0 xl:basis-10/12'>
           <h1 className='text-4xl font-bold'>Logos, Graphic Design, &amp; Branding</h1>
           <p className='xl:text-lg'>We also offer logo and graphic design services via our own in-house graphic designer. If you have an existing logo that needs a touch up or need a completely new one we can help build your business&apos;s brand.</p>

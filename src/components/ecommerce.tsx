@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import { Check } from 'lucide-react'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -18,7 +19,7 @@ const Ecommerce = (props: Props) => {
             <li className='flex items-center'><Check size="14" className='mr-2' color="blue" />Custom Coded Shopify Integration</li>
             <li className='flex items-center'><Check size="14" className='mr-2' color="blue" />Easy to edit</li>
           </ul>
-          <Button className='bg-gradient-to-r from-blue-500 to-cyan-400 rounded-none font-bold px-6'>Contact Us</Button>
+          <Button className='bg-gradient-to-r from-blue-500 to-cyan-400 rounded-none font-bold px-6'><Link href="/contact" >Contact Us</Link></Button>
         </div>
       </div>
       <div className='border-2 border-[#e2f1ff] w-full text-center rounded-t space-y-4 mb-10 xl:scale-125 z-10 bg-white dark:bg-black'>
@@ -32,7 +33,7 @@ const Ecommerce = (props: Props) => {
             <li className='flex items-center'><Check size="14" className='mr-2' color="blue" />24/7 Customer Service</li>
             <li className='flex items-center'><Check size="14" className='mr-2' color="blue" />Lifetime Updates</li>
           </ul>
-          <Button className='bg-gradient-to-r from-blue-500 to-cyan-400 rounded-none font-bold px-6'>Contact Us</Button>
+          <Button className='bg-gradient-to-r from-blue-500 to-cyan-400 rounded-none font-bold px-6'><Link href="/contact" >Contact Us</Link></Button>
         </div>
       </div>
       <div className='border-2 border-[#e2f1ff] w-full text-center rounded-t space-y-4 mb-10 z-0'>
@@ -46,10 +47,10 @@ const Ecommerce = (props: Props) => {
             <li className='flex items-center'><Check size="14" className='mr-2' color="blue" />Ready To Use</li>
             <li className='flex items-center'><Check size="14" className='mr-2' color="blue" />FREE w/ Subscription</li>
           </ul>
-          <Button className='bg-gradient-to-r from-blue-500 to-cyan-400 rounded-none font-bold px-6'>Contact Us</Button>
+          <Button className='bg-gradient-to-r from-blue-500 to-cyan-400 rounded-none font-bold px-6'><Link href="/contact" >Contact Us</Link></Button>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 

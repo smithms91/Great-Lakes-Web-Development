@@ -43,7 +43,7 @@ const Nav = (props: Props) => {
         </ul>
       </div>
       <nav className='flex items-center justify-between w-full px-4 lg:px-[3rem] xl:px-[30rem]'>
-        <Image src="/glwd-logo.png" alt="logo" width={200} height={200} className='sm:w-[250px] lg:w-[300px]' />
+        <Link href="/"><Image src="/glwd-logo.png" alt="logo" width={100} height={100} className='w-[200px] sm:w-[250px] lg:w-[300px]' /></Link>
         <AlignJustify size={40} className='text-white sm:mr-10 lg:hidden' onClick={() => handleNavOpen()} />
         <ul className='hidden lg:flex items-center w-[50%] justify-evenly text-white font-bold text-xl'>
           <Link href="/">Home</Link>
